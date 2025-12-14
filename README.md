@@ -1,16 +1,42 @@
-# React + Vite
+# 🛒 TechStore E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scalable and responsive e-commerce application built with **React** and **Context API**.
+This project demonstrates advanced state management techniques, avoiding prop-drilling by utilizing a centralized store for shopping cart operations.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Global State Management:** Powered by React Context API to manage cart state across the application.
+- **Shopping Cart Logic:** Add to cart, remove items, and update quantities dynamically.
+- **Real-time Calculation:** Subtotal price updates instantly as items are modified.
+- **Routing:** Seamless navigation between Shop and Cart pages using React Router DOM.
+- **Responsive UI:** Mobile-friendly design with CSS Grid and Flexbox.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** (Vite)
+- **Context API** (State Management)
+- **React Router v6** (Navigation)
+- **CSS3** (Custom Grid & Flex Layouts)
 
-## Expanding the ESLint configuration
+## 🚀 How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/1nkeeper/tech-store.git](https://github.com/1nkeeper/tech-store.git)
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd tech-store
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+---
+
+**Developer:** [Eren Tüzün](https://github.com/1nkeeper)
